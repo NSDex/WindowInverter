@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0ADC1CF167E783900883D24 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ADC1CE167E783900883D24 /* Cocoa.framework */; };
+		D0ADC1D9167E783900883D24 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0ADC1D7167E783900883D24 /* InfoPlist.strings */; };
+		D0ADC1E2167E785D00883D24 /* Inverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ADC1E1167E785D00883D24 /* Inverter.m */; };
+		D0ADC1EB167E7D3600883D24 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ADC1EA167E7D3600883D24 /* ApplicationServices.framework */; };
+		D0ADC1F7167E8A5900883D24 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D0ADC1F6167E8A5900883D24 /* Readme.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D0ADC1CB167E783900883D24 /* Inverter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inverter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0ADC1CE167E783900883D24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D0ADC1D1167E783900883D24 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D0ADC1D2167E783900883D24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D0ADC1D3167E783900883D24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D0ADC1D6167E783900883D24 /* Inverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Inverter-Info.plist"; sourceTree = "<group>"; };
+		D0ADC1D8167E783900883D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D0ADC1DA167E783900883D24 /* Inverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Inverter-Prefix.pch"; sourceTree = "<group>"; };
+		D0ADC1E0167E785D00883D24 /* Inverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inverter.h; sourceTree = "<group>"; };
+		D0ADC1E1167E785D00883D24 /* Inverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inverter.m; sourceTree = "<group>"; };
+		D0ADC1EA167E7D3600883D24 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		D0ADC1F6167E8A5900883D24 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0ADC1C8167E783900883D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ADC1EB167E7D3600883D24 /* ApplicationServices.framework in Frameworks */,
+				D0ADC1CF167E783900883D24 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0ADC1C0167E783900883D24 = {
+			isa = PBXGroup;
+			children = (
+				D0ADC1D4167E783900883D24 /* Inverter */,
+				D0ADC1CD167E783900883D24 /* Frameworks */,
+				D0ADC1CC167E783900883D24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0ADC1CC167E783900883D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0ADC1CB167E783900883D24 /* Inverter.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0ADC1CD167E783900883D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0ADC1EA167E7D3600883D24 /* ApplicationServices.framework */,
+				D0ADC1CE167E783900883D24 /* Cocoa.framework */,
+				D0ADC1D0167E783900883D24 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0ADC1D0167E783900883D24 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0ADC1D1167E783900883D24 /* AppKit.framework */,
+				D0ADC1D2167E783900883D24 /* CoreData.framework */,
+				D0ADC1D3167E783900883D24 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D0ADC1D4167E783900883D24 /* Inverter */ = {
+			isa = PBXGroup;
+			children = (
+				D0ADC1E0167E785D00883D24 /* Inverter.h */,
+				D0ADC1E1167E785D00883D24 /* Inverter.m */,
+				D0ADC1D5167E783900883D24 /* Supporting Files */,
+				D0ADC1F6167E8A5900883D24 /* Readme.md */,
+			);
+			path = Inverter;
+			sourceTree = "<group>";
+		};
+		D0ADC1D5167E783900883D24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0ADC1D6167E783900883D24 /* Inverter-Info.plist */,
+				D0ADC1D7167E783900883D24 /* InfoPlist.strings */,
+				D0ADC1DA167E783900883D24 /* Inverter-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0ADC1CA167E783900883D24 /* Inverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0ADC1DD167E783900883D24 /* Build configuration list for PBXNativeTarget "Inverter" */;
+			buildPhases = (
+				D0ADC1C7167E783900883D24 /* Sources */,
+				D0ADC1C8167E783900883D24 /* Frameworks */,
+				D0ADC1C9167E783900883D24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Inverter;
+			productName = Inverter;
+			productReference = D0ADC1CB167E783900883D24 /* Inverter.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0ADC1C2167E783900883D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = D0ADC1C5167E783900883D24 /* Build configuration list for PBXProject "Inverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0ADC1C0167E783900883D24;
+			productRefGroup = D0ADC1CC167E783900883D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0ADC1CA167E783900883D24 /* Inverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0ADC1C9167E783900883D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ADC1D9167E783900883D24 /* InfoPlist.strings in Resources */,
+				D0ADC1F7167E8A5900883D24 /* Readme.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0ADC1C7167E783900883D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0ADC1E2167E785D00883D24 /* Inverter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0ADC1D7167E783900883D24 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0ADC1D8167E783900883D24 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0ADC1DB167E783900883D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0ADC1DC167E783900883D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0ADC1DE167E783900883D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inverter/Inverter-Prefix.pch";
+				INFOPLIST_FILE = "Inverter/Inverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		D0ADC1DF167E783900883D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Inverter/Inverter-Prefix.pch";
+				INFOPLIST_FILE = "Inverter/Inverter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0ADC1C5167E783900883D24 /* Build configuration list for PBXProject "Inverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ADC1DB167E783900883D24 /* Debug */,
+				D0ADC1DC167E783900883D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0ADC1DD167E783900883D24 /* Build configuration list for PBXNativeTarget "Inverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0ADC1DE167E783900883D24 /* Debug */,
+				D0ADC1DF167E783900883D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0ADC1C2167E783900883D24 /* Project object */;
+}
