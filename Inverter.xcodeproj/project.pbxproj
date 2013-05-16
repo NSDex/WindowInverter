@@ -12,13 +12,14 @@
 		D0ADC1E2167E785D00883D24 /* Inverter.m in Sources */ = {isa = PBXBuildFile; fileRef = D0ADC1E1167E785D00883D24 /* Inverter.m */; };
 		D0ADC1EB167E7D3600883D24 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0ADC1EA167E7D3600883D24 /* ApplicationServices.framework */; };
 		D0ADC1F7167E8A5900883D24 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = D0ADC1F6167E8A5900883D24 /* Readme.md */; };
+		D0D4512F174432E1006A8143 /* MenuItems.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0D45131174432E1006A8143 /* MenuItems.xib */; };
+		D0D45134174436DA006A8143 /* NSWindow+Invert.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D45133174436DA006A8143 /* NSWindow+Invert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0ADC1CB167E783900883D24 /* Inverter.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Inverter.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0ADC1CE167E783900883D24 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D0ADC1D1167E783900883D24 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		D0ADC1D2167E783900883D24 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		D0ADC1D3167E783900883D24 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D0ADC1D6167E783900883D24 /* Inverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Inverter-Info.plist"; sourceTree = "<group>"; };
 		D0ADC1D8167E783900883D24 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -27,6 +28,10 @@
 		D0ADC1E1167E785D00883D24 /* Inverter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Inverter.m; sourceTree = "<group>"; };
 		D0ADC1EA167E7D3600883D24 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
 		D0ADC1F6167E8A5900883D24 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Readme.md; sourceTree = SOURCE_ROOT; };
+		D0D4512C17442AF1006A8143 /* CGSPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGSPrivate.h; sourceTree = "<group>"; };
+		D0D45130174432E1006A8143 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MenuItems.xib; sourceTree = "<group>"; };
+		D0D45132174436DA006A8143 /* NSWindow+Invert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+Invert.h"; sourceTree = "<group>"; };
+		D0D45133174436DA006A8143 /* NSWindow+Invert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+Invert.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,26 +69,20 @@
 			children = (
 				D0ADC1EA167E7D3600883D24 /* ApplicationServices.framework */,
 				D0ADC1CE167E783900883D24 /* Cocoa.framework */,
-				D0ADC1D0167E783900883D24 /* Other Frameworks */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D0ADC1D0167E783900883D24 /* Other Frameworks */ = {
-			isa = PBXGroup;
-			children = (
 				D0ADC1D1167E783900883D24 /* AppKit.framework */,
-				D0ADC1D2167E783900883D24 /* CoreData.framework */,
 				D0ADC1D3167E783900883D24 /* Foundation.framework */,
 			);
-			name = "Other Frameworks";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D0ADC1D4167E783900883D24 /* Inverter */ = {
 			isa = PBXGroup;
 			children = (
+				D0D4512C17442AF1006A8143 /* CGSPrivate.h */,
 				D0ADC1E0167E785D00883D24 /* Inverter.h */,
 				D0ADC1E1167E785D00883D24 /* Inverter.m */,
+				D0D45132174436DA006A8143 /* NSWindow+Invert.h */,
+				D0D45133174436DA006A8143 /* NSWindow+Invert.m */,
 				D0ADC1D5167E783900883D24 /* Supporting Files */,
 				D0ADC1F6167E8A5900883D24 /* Readme.md */,
 			);
@@ -93,6 +92,7 @@
 		D0ADC1D5167E783900883D24 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0D45131174432E1006A8143 /* MenuItems.xib */,
 				D0ADC1D6167E783900883D24 /* Inverter-Info.plist */,
 				D0ADC1D7167E783900883D24 /* InfoPlist.strings */,
 				D0ADC1DA167E783900883D24 /* Inverter-Prefix.pch */,
@@ -152,6 +152,7 @@
 			files = (
 				D0ADC1D9167E783900883D24 /* InfoPlist.strings in Resources */,
 				D0ADC1F7167E8A5900883D24 /* Readme.md in Resources */,
+				D0D4512F174432E1006A8143 /* MenuItems.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0ADC1E2167E785D00883D24 /* Inverter.m in Sources */,
+				D0D45134174436DA006A8143 /* NSWindow+Invert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +179,14 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
+		D0D45131174432E1006A8143 /* MenuItems.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0D45130174432E1006A8143 /* en */,
+			);
+			name = MenuItems.xib;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -184,13 +194,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -213,15 +223,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
