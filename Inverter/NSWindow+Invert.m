@@ -57,7 +57,8 @@ static char const * const Key = "WindowHelper";
 	 Over the window    = 1 <<  1
 	 On the window      = 1 <<  2
 	 */
-	NSInteger compositingType = 1 << 2; // On the window
+	//NSInteger compositingType = 1 << 2; // On the window
+    NSInteger compositingType = 1 << 10; // End of the filter chain
     
     if (inverted && helper->_invertFilter == NULL) {
         DLog(@"+++ Inverter[%@]: Applying invert filter to window %li", [Inverter sharedInstance].appName, (long)[self windowNumber]);

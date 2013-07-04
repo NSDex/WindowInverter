@@ -84,6 +84,10 @@
     
     if (windowMenu.numberOfItems < 1)
         return NO;
+    // This method may be called twice before we can unregister for the NSMenuDidAddItemNotification
+    // so we must make sure we never add _invertMenuItem to a menu twice.
+    if (_invertMenuItem.menu)
+        return NO;
 
     // Add Menu Items
     //[windowMenu insertItem:_invertOptionsMenuItem atIndex:0];
