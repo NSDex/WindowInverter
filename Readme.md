@@ -1,3 +1,5 @@
+*NOTE: OS X Mavericks has nearly killed this plugin.  It still works in a few apps but will cause graphical glitches in most others.* 
+
 ## About
 
 Inverter is a SIMBL plugin that adds an option to invert the colors of the key 
